@@ -23,6 +23,7 @@
     "url": "https://github.com/ArthurMilligan/skyPro_test/issues"
   },
   "homepage": "https://ArthurMilligan.github.io/skyPro_test",
+  "private": false,
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/preset-env": "^7.22.4",

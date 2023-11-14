@@ -15,7 +15,7 @@ const Navigation:FC = ()=>{
             <ul className={s.navigation__list}>
                 <li className={s.navigation__element}>
                     <NavLink
-                        to='/catalog'
+                        to='/'
                         className={({ isActive }) =>
                             `${s.navigation__link} ${isActive?s.navigation__link_active:''}`
                         }
