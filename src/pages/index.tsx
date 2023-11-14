@@ -55,12 +55,16 @@ const Routing:FC = () => {
             <Navigation/>
             <Routes>
                 <Route
-                    path='/'
+                    path='/catalog'
                     element={<Catalog dispatch={dispatch}/>}
                 />
                 <Route
                     path='/cart'
                     element={<Cart store={store} dispatch={dispatch}/>}
+                />
+                <Route
+                    path='/'
+                    element={<Navigate to='/catalog' />}
                 />
             </Routes>
         </div>
