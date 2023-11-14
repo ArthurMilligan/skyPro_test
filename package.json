@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/ArthurMilligan/skyPro_test/issues"
   },
-  "homepage": "https://ArthurMilligan.github.io/skyPro_test",
+  "homepage": "https://ArthurMilligan.github.io/",
   "private": false,
   "devDependencies": {
     "@babel/core": "^7.22.1",
