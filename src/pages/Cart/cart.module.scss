@@ -1,0 +1,43 @@
+.cart{
+    margin-top:32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__headers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 14px;
+    }
+    &__container{
+        width: 786px;
+    }
+    &__buttonsContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__button{
+        border: 1px solid #000000;
+        border-radius: 50px;
+        width: 200px;
+        background-color: white;
+        :active{
+            background-color: #000000;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cart{
+        margin: 20px 10px 0 10px;
+        &__container{
+            width: auto;
+        }
+        &__button{
+            width: 150px;
+        }
+    }
+  }

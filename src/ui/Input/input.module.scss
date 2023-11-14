@@ -1,0 +1,22 @@
+.input {
+    position: relative;
+    &__input{
+        font-family: var(--r);
+        border-radius: 5px;
+        border: 1px solid grey;
+        padding: 3px 10px 3px 10px;
+        &:focus{
+            border: 1px solid black;
+        }
+    }
+    &__error{
+        position:absolute;
+        width: 150px;
+        left: 5px;
+        bottom: -25px;
+        color: red;
+        font-family: var(--r);
+        font-size: small;
+    }
+   
+}

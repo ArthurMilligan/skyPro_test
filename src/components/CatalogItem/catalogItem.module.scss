@@ -1,0 +1,22 @@
+.catalogItem{
+    width: 380px;
+    &__atr{
+        display: flex;
+        flex-direction: column;
+    }
+    &__description{
+        color:#888888;
+        margin:8px 0 12px 0;
+    }
+    &__img{
+        position: relative;
+        width: 380px;
+    }
+    &__icons{
+        display: flex;
+        position:absolute;
+        top:10px;
+        right:10px;
+        gap: 21px
+    }
+}

@@ -1,0 +1,37 @@
+.cartItem{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 25px;
+    height: 200px;
+    width: 786px;
+    border-top: 0.5px solid #CACDD8;
+    &__atr{
+        display: flex;
+        flex-direction: column;
+    }
+    &__description{
+        color:#888888;
+        margin:8px 0 12px 0;
+    }
+    &__img{
+        position: relative;
+        min-width: 173px;
+        height: 173px;
+        overflow: hidden;
+    }
+    &__imgContent{
+        position:absolute;
+        left:-33%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cartItem{
+        width: auto;
+        border-top: 0.5px solid #CACDD8;
+        &__img{
+            display: none;
+        }
+    }
+  }

@@ -1,0 +1,23 @@
+.counter{
+    display: flex;
+    align-items: center;
+    background-color: #F7F6F6;
+    border-radius: 6px;
+    overflow: hidden;
+    &__count{
+        padding: 2px 7px 2px 11px; 
+    }
+    &__buttonConainer{
+        display: flex;
+        flex-direction: column;
+    }
+    &__button{
+        outline: none;
+        background-color: #F7F6F6;
+        border:none;
+        padding: 0;        
+        :active {
+            background-color: #9e9d9d;
+        }
+    }
+}
