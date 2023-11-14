@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArthurMilligan/test_arturstudio.git"
+    "url": "git+https://github.com/ArthurMilligan/skyPro_test.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ArthurMilligan/test_arturstudio/issues"
+    "url": "https://github.com/ArthurMilligan/skyPro_test/issues"
   },
-  "homepage": "https://github.com/ArthurMilligan/test_arturstudio#readme",
+  "homepage": "https://github.com/ArthurMilligan/skyPro_test",
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/preset-env": "^7.22.4",
