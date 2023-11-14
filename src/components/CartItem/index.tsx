@@ -34,7 +34,7 @@ const CartItem:FC<ICartItemProps> = ({img, name, description, price, count, onAd
         <div className={s.cartItem__atr}>
             <Text fontSize='large'>{name}</Text>
             <Text className={s.cartItem__description}>{description}</Text>
-            <Text fontSize='large'>{`${price} руб.` }</Text>
+            <Text fontSize='large'>{`${price} руб. ` }</Text>
         </div>
         <div>
             <Counter value={count} onDecrease={onDelete} onIncrease={onAdd} />
